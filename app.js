@@ -1071,6 +1071,8 @@
       }
       store = SupabaseStore();
     }
+    const qs = new URLSearchParams(location.search);
+    if (qs.get("theme") === "light" || qs.get("theme") === "dark") document.documentElement.setAttribute("data-theme", qs.get("theme"));
     S.sessie = await store.sessie();
     store.onAuth(async (sess) => {
       const was = !!S.sessie;
@@ -1090,6 +1092,11 @@
     }
     render();
     if (S.ik) store.abonneer(onChange, onPeers);
+    if (DEMO) {
+      const nr = new URLSearchParams(location.search).get("open");
+      const k = nr && S.kaarten.find((x) => x.nr === nr);
+      if (k) openKaart(k.id);
+    }
   }
 
   boot();
