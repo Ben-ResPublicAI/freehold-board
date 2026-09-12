@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="6 8 118 84" width="236" height="168" role="img">
+  <title>Freehold, symbool Het Membraan</title>
+  <desc>Ruisveld, twee doorgangen, gebogen membraan en drie signaalstreken. Ongewijzigd overgenomen uit de Res PublicAI huisstijl.</desc>
+  <g stroke="#14181D" stroke-linecap="round" stroke-width="2.0" fill="none">
+    <line x1="15" y1="42" x2="15" y2="58" opacity="0.22"/>
+    <line x1="22" y1="34" x2="22" y2="68" opacity="0.3"/>
+    <line x1="29" y1="46" x2="29" y2="54" opacity="0.18"/>
+    <line x1="36" y1="26" x2="36" y2="76" opacity="0.38"/>
+    <line x1="43" y1="43" x2="43" y2="59" opacity="0.22"/>
+    <line x1="50" y1="31" x2="50" y2="71" opacity="0.3"/>
+    <line x1="57" y1="47" x2="57" y2="53" opacity="0.18"/>
+    <line x1="64" y1="28" x2="64" y2="74" opacity="0.34"/>
+  </g>
+  <path d="M36,50 C50,50 62,50 88,51" stroke="#14796A" stroke-width="1.8" stroke-linecap="round" fill="none" opacity="0.42"/>
+  <path d="M50,52 C62,52 72,49 100,51" stroke="#14796A" stroke-width="1.8" stroke-linecap="round" fill="none" opacity="0.3"/>
+  <path d="M75,13 C80,32 80,68 75,87" stroke="#14796A" stroke-width="3.0" stroke-linecap="round" fill="none"/>
+  <g stroke="#14796A" stroke-linecap="round" stroke-width="5.0">
+    <line x1="90" y1="38" x2="90" y2="62"/>
+    <line x1="101" y1="28" x2="101" y2="72"/>
+    <line x1="112" y1="43" x2="112" y2="57"/>
+  </g>
+</svg>
