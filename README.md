@@ -4,7 +4,7 @@ Een kanbanbord voor de mijlpalen van de oprichters van Freehold Works: wie doet 
 
 Deze map bevat alleen de toepassing. **De mijlpalen zelf staan er niet in**; die leven in een Supabase-database achter een login, en alleen wie op het blad Mensen staat, kan ze zien.
 
-## Wat het doet
+## Functies
 
 - **Bord** met vijf kolommen: Open, In uitvoering, Wacht op, Gehaald, Vervallen. Kaarten versleep je tussen de kolommen. Een tweede weergave zet het bord per oprichter.
 - **Filters** op oprichter, periode, gedeelde en groepsmijlpalen, en een zoekvak.
@@ -15,7 +15,7 @@ Deze map bevat alleen de toepassing. **De mijlpalen zelf staan er niet in**; die
 - **Uitvoer** als JSON, en invoer uit datzelfde formaat.
 - **Streefdatums** rekenen mee met de aanvangsdatum: verschuift die, dan schuiven alle datums die als "maanden na aanvang" zijn opgegeven mee.
 
-## Hoe de toegang werkt
+## Toegangsmodel
 
 1. Je logt in met je e-mailadres; je krijgt een inloglink, er is geen wachtwoord.
 2. Je komt alleen binnen als dat adres op het blad Mensen staat en actief is.
