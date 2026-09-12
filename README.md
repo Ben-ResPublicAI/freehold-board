@@ -34,7 +34,7 @@ De code in deze map is openbaar zichtbaar omdat GitHub Pages ze zo bedient. Er s
 
 **3. Seed.** Voer daarna het seed-bestand met de oprichters en de mijlpalen uit. Dat bestand staat niet in deze map.
 
-**4. Authenticatie.** Onder Authentication, URL Configuration: zet de Site URL op het adres waar het bord draait (bijvoorbeeld `https://bord.freehold.works/`) en voeg datzelfde adres toe bij Redirect URLs. Onder Authentication, Providers: Email staat standaard aan; schakel "Confirm email" uit als je alleen inloglinks wil.
+**4. Authenticatie.** Onder Authentication, URL Configuration: zet de Site URL op het adres waar het bord draait (bijvoorbeeld `https://board.freehold.works/`) en voeg datzelfde adres toe bij Redirect URLs. Onder Authentication, Providers: Email staat standaard aan; schakel "Confirm email" uit als je alleen inloglinks wil.
 
    Het ingebouwde mailkanaal van Supabase is bedoeld om te testen en verstuurt maar enkele mails per uur. Voor dagelijks gebruik door meer dan een handvol mensen stel je onder Authentication, SMTP Settings een eigen afzender in.
 
